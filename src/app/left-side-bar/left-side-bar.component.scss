@@ -1,0 +1,23 @@
+.left-side-bar-container{
+    width: 500px;
+    min-height: 1360px;
+    flex: 1;
+    margin-top: 370px;
+    font-family: "Exo 2" , sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 40px;
+    color: #F47E0B;
+}
+.left-menu-list{
+    list-style-type: none;
+    padding-left: 41px;
+    position: absolute;
+    margin: 0;
+    max-width: 370px;
+    ul{
+        list-style-type: none;
+        padding-left: 0px;
+    }
+}

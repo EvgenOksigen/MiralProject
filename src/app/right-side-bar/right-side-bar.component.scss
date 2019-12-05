@@ -1,0 +1,96 @@
+.cards-list-container{
+    padding: 33px 165px 0px 65px;
+    min-width: 175px;
+
+}
+.coin-card{
+    background: rgba(229,229,229,0.15);
+    padding: 30px;
+    border-radius: 20px;
+    width: 170px;
+    text-align: left;
+    color: #26211C;
+    float: right;
+    margin-bottom: 25px;
+    transition: 0.15s ease-in-out;
+    &:hover{
+        transition: 0.15s ease-in-out;
+        width: 200px;
+        .fa-long-arrow-alt{
+            &-up{
+                transition: 0.15s ease-in-out;
+                right: 85px;
+            }
+            &-down{
+                transition: 0.15s ease-in-out;
+                right: 85px;
+            }
+        }
+    }
+    ul{
+        margin: 22.5px auto;
+        list-style-type: none;
+        li{
+            position: relative;
+            font-size: 16px;
+        }
+    }
+}
+.card-header{
+    position: relative;
+    max-width: 170px;
+}
+.coin-title{
+    font-size: 20px;
+    font-weight: normal;
+}
+.cards-list-container{
+    font-family: "Exo 2";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #26211C;
+}
+.procent{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    font-size: 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.fa-long-arrow-alt{
+    &-up{
+        transition: 0.15s ease-in-out;
+        color: #6EAD63;
+        position: absolute;
+        right: 55px;//95px
+        bottom: 4px;
+    }
+    &-down{
+        transition: 0.15s ease-in-out;
+        color: #B25B5B;
+        position: absolute;
+        right: 55px;//95px
+        bottom: 4px;
+    }
+}
+.coin-btn{
+    border: 0;
+    background: unset;
+    font-family: "Exo 2";
+    font-size: 16px;
+    padding: 0;
+    cursor: pointer;
+    outline: unset;
+    color: #26211C;
+}
+.fa-signal{
+    color: #ED9B64;
+    transform: scale(-1, 1);
+    position: relative;
+    bottom: 2px;
+    margin-right: 2px;
+}

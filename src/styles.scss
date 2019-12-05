@@ -1,0 +1,48 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    max-width: 1920px;
+    margin: auto;
+    background: #FAFAFA;
+}
+footer{
+    height: 327px;
+    background: #FFD379;
+}
+.content{
+    display: flex;
+    flex: 1;
+}
+@import "../src/app/top-bar/top-bar.component.scss";
+
+.no-padding{
+    padding: 0 !important;
+}
+.no-margin{
+    margin: 0 !important;
+}
+.no-border{
+    border: none;
+}
+.text-uppercase{
+    text-transform: uppercase;
+}
+.text{
+    &-right{
+        text-align: right;
+    }
+    &-left{
+        text-align: left;
+    }
+}
+.mt-40{
+    margin-top: 40px;
+}
+.lstd{
+    list-style-type: disc !important;
+}
+.padding-left-xl{
+    padding-left: 20px;
+}
+.d-fx{
+    display: flex;
+}
