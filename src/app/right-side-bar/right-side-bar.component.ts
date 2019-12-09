@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog, MatDialogConfig } from '@angular/material'
+import { QrModal } from '../_modal/qr-modal/qr-modal.component';
 
 @Component({
   selector: 'right-side-bar',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RightSideBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private dialog: MatDialog) { }
 
   ngOnInit() {
   }
-
+  onModal() {
+    this.dialog.open(QrModal);
+  }
 }

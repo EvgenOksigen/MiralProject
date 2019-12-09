@@ -1,11 +1,15 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import * as Material from '@angular/material'
 
 import { AppComponent } from './app.component';
 import { TopBarComponent } from './top-bar/top-bar.component';
 import { LeftSideBarComponent } from './left-side-bar/left-side-bar.component';
 import { ContentComponent } from './content/content.component';
 import { RightSideBarComponent } from './right-side-bar/right-side-bar.component';
+import { QrModal } from './_modal/qr-modal/qr-modal.component'
+
 
 @NgModule({
   declarations: [
@@ -14,11 +18,18 @@ import { RightSideBarComponent } from './right-side-bar/right-side-bar.component
     LeftSideBarComponent,
     ContentComponent,
     RightSideBarComponent,
+    QrModal
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    Material.MatDialogModule,
+    BrowserAnimationsModule
   ],
+  // exports: [
+  //   Material.MatDialogModule,
+  // ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [QrModal]
 })
 export class AppModule { }
