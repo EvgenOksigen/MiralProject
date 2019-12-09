@@ -1,0 +1,32 @@
+@mixin app-btn-default( $font-size, $text-color, $bg-color, $padding) {
+    font-family: "Exo 2";
+    border-radius: 20px;
+    color: $text-color;
+    background-color: $bg-color;
+    font-size: $font-size;
+    padding: $padding;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.btn-close{
+    @include app-btn-default(16px, #F47E0B, white, 12px 30px );
+    border: 1px solid #F47E0B;
+    box-sizing: border-box;
+    margin-top: 32px;
+}
+.btn-copy{
+    cursor: pointer;
+    outline: none;
+}
+.btn-1{
+    @include app-btn-default(16px, white, #F47E0B, 12px 30px );
+}
+.btn-btc-info{
+    @include app-btn-default( unset, -color, #FFF4E5, 13px );
+    height: 45.5px;
+    width: 45.5px;
+    .fa-exclamation-circle{
+        color: #FFCA83;
+    }
+}

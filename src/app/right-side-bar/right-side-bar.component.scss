@@ -1,10 +1,17 @@
 .cards-list-container{
+    display: flow-root;
     padding: 33px 165px 0px 65px;
     min-width: 175px;
     height: auto;
+    font-family: "Exo 2";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #26211C;
 }
 .coin-card{
-    background: rgba(229,229,229,0.15);
+    background: rgba(229,229,229,1);//0.15
     padding: 30px;
     border-radius: 20px;
     width: 170px;
@@ -43,14 +50,6 @@
 .coin-title{
     font-size: 20px;
     font-weight: normal;
-}
-.cards-list-container{
-    font-family: "Exo 2";
-    font-style: normal;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 24px;
-    color: #26211C;
 }
 .procent{
     display: flex;

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MatDialog, MatDialogConfig } from '@angular/material'
+
 
 @Component({
     selector: 'qr-modal',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QrModal implements OnInit {
 
-    constructor() { }
+    constructor(private dialog: MatDialog) { }
 
     ngOnInit() {
     }
-
+    onClose() {
+        this.dialog.closeAll();
+    }
 }

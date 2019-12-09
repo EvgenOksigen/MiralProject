@@ -1,0 +1,23 @@
+.mat-dialog-container {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 20px !important;
+    padding: 0px !important;
+}
+.modal-header-with-icon{
+    display: flex;
+    justify-content: space-between;
+}
+.m-title{
+    font-family: "Exo 2";
+    font-style: normal;
+    font-weight: 300;
+    line-height: 40px;
+    font-size: 24px;
+    color: #000000;
+    margin: 0px;
+}
+.modal-content{
+    display: flex;
+    text-align: center;
+}

@@ -1,0 +1,18 @@
+.qr-modal{
+    width: 331px;
+    padding: 52px 114px 32px;
+    color: #000;
+}
+.right-side{
+    padding-left: 25px;
+}
+.buffer-container{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-family: "Exo 2";
+    .fa-copy{
+        color: #AAB0BB;
+        font-size: 16px;
+    }
+}
