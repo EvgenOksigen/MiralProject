@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+@import "../src/app/top-bar/top-bar.component.scss";
+@import '~@angular/cdk/overlay-prebuilt.css';
+@import './app/app.component.scss';
+@import './app/_modal/modal-thems';
+@import './app/_media-thems.scss';
 body{
     max-width: 1920px;
     margin: auto;
@@ -12,10 +17,6 @@ footer{
     display: flex;
     flex: 1;
 }
-@import "../src/app/top-bar/top-bar.component.scss";
-@import '~@angular/cdk/overlay-prebuilt.css';
-@import './app/app.component.scss';
-@import './app/_modal/modal-thems';
 
 
 
