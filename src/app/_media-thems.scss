@@ -1,0 +1,76 @@
+@media (min-width: 360px) and (max-width: 799px) {
+    body{
+        max-width: 360px;
+        padding: 15px 15px 0;
+    }
+    .header-container{
+        padding: 0 0 8px !important;
+        border-bottom: 1px solid #EBE6E1;
+    }
+    .head-title{
+        margin: 71px auto 0 !important;
+        font-weight: 300 !important;
+        font-size: 28px !important;
+        line-height: 34px !important;
+        &::before{
+            width: 45px !important;
+            height: 45px !important;
+            left: 15% !important;
+        }
+    }
+    .sub-title{
+        max-width: 202px;
+        font-family: "Exo 2" !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 20px !important;
+        line-height: 30px !important;
+        text-align: center !important;
+        color: #26211C !important;
+        margin-top: 50.1px !important;
+    }
+    .descript{
+        font-size: 16px !important;
+        &-title{
+            font-size: 18px !important;
+        }
+    }
+    .menu-icon-wrapper{
+        margin: auto 0;
+    }
+    .header-nav-menu{
+        border: none !important;
+        justify-content: space-evenly !important;
+        .nav-auth{
+            font-family: "Exo 2";
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 19px;
+            text-transform: uppercase;
+            color: #4D4337;
+        }
+    }
+    .logo-container{
+        max-width: 44px;
+        height: 51.5px;
+        text-align: left !important;
+    }
+    .content{
+        justify-content: center;
+    }
+    .content-container{
+        width: 100%;
+        max-width: 345px;
+        .img-transform{
+            left: 50px !important;
+        }
+    }
+    .nav-map, #lang, .left-side-bar-container, .cards-list-container, .nav-item:last-child{
+        display: none !important;
+    }
+    img{
+        max-width: 375px;
+        max-height: 375px;
+    }
+}
