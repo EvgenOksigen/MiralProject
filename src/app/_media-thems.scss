@@ -70,7 +70,31 @@
         display: none !important;
     }
     img{
-        max-width: 375px;
-        max-height: 375px;
+        max-width: 345px;
+        max-height: 345px;
     }
+    .menu-icon-wrapper{
+        display: flex !important;
+    }
+    .acc-card{
+        display: flex;
+        margin: 52px 0 32px;
+        align-items: baseline;
+        max-width: 232px;
+        .fas.fa-chevron-down{
+            display: inherit;
+        }
+        .descript-title{
+            margin: 0 0 0 15px !important;
+        }
+    }
+    // .descript, .descript-mt, .img-cnt{
+    //     display: none !important;
+    //     &.open{
+    //         display: block !important;
+    //     }
+    // }
+    // .open{
+    //     display: block !important;
+    // }
 }

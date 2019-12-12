@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+// import * as $ from 'jquery';
+
 
 @Component({
   selector: 'content',
@@ -7,9 +9,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
 
-  constructor() { }
+  constructor() {
+
+  }
 
   ngOnInit() {
+
   }
+  // onOpen(val) {
+  //   if ($('#' + val).hasClass('open')) {
+  //     $('#' + val).removeClass('open');
+  //   } else {
+  //     $('#' + val).addClass('open');
+  //   }
+  // }
 
 }

@@ -25,9 +25,6 @@ import { QrModal } from './_modal/qr-modal/qr-modal.component'
     Material.MatDialogModule,
     BrowserAnimationsModule
   ],
-  // exports: [
-  //   Material.MatDialogModule,
-  // ],
   providers: [],
   bootstrap: [AppComponent],
   entryComponents: [QrModal]
